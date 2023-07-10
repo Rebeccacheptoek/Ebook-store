@@ -69,3 +69,12 @@
 2023-07-09 20:55:37,114 INFO /home/becky/.local/bin/bench --site abc.localhost migrate
 2023-07-09 22:25:32,687 INFO /home/becky/.local/bin/bench --site abc.localhost mariadb
 2023-07-10 18:00:03,712 INFO /home/becky/.local/bin/bench --verbose --site all backup
+2023-07-10 22:37:46,303 INFO /home/becky/.local/bin/bench update
+2023-07-10 22:37:58,094 WARNING shallow_clone is set in your bench config.
+However without passing the --reset flag, your repositories will be unshallowed.
+To avoid this, cancel this operation and run `bench update --reset`.
+
+Consider the consequences of `git reset --hard` on your apps before you run that.
+To avoid seeing this warning, set shallow_clone to false in your common_site_config.json
+		
+2023-07-10 22:38:16,812 WARNING /home/becky/.local/bin/bench update executed with exit code 1
