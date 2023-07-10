@@ -1,0 +1,95 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-07-08 14:12:57.146343",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "ebook",
+  "customer_email",
+  "column_break_lbrl",
+  "status",
+  "razorpay_details_tab",
+  "order_amount",
+  "razorpay_order_id",
+  "column_break_azlz",
+  "razorpay_payment_id"
+ ],
+ "fields": [
+  {
+   "fieldname": "ebook",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "eBook",
+   "options": "eBook",
+   "reqd": 1
+  },
+  {
+   "fieldname": "customer_email",
+   "fieldtype": "Data",
+   "label": "Customer Email"
+  },
+  {
+   "fieldname": "column_break_lbrl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Pending",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Pending\nPaid\nDelivered"
+  },
+  {
+   "fieldname": "razorpay_details_tab",
+   "fieldtype": "Tab Break",
+   "label": "RazorPay Details"
+  },
+  {
+   "fieldname": "order_amount",
+   "fieldtype": "Currency",
+   "label": "Order Amount"
+  },
+  {
+   "fieldname": "razorpay_order_id",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Razorpay Order ID",
+   "options": "Store Razorpay Settings",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_azlz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "razorpay_payment_id",
+   "fieldtype": "Data",
+   "label": "Razorpay Payment ID"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-07-08 14:33:37.244540",
+ "modified_by": "Administrator",
+ "module": "Star Ebook Store",
+ "name": "eBook Order",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

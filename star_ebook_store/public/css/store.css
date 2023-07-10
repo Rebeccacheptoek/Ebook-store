@@ -1,0 +1,9 @@
+.card-cover-image {
+    object-fit: cover;
+  }
+  
+  .cover-image {
+    height: 65vh;
+    width: auto;
+    object-fit: contain;
+  }
