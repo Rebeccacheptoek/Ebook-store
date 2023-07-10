@@ -36,29 +36,30 @@ class eBook(WebsiteGenerator):
             args=args,
         )
 
+    def get_ebook_data(is_published=True, author=None):
+        EBook = frappe.qb.DocType("eBook")
+        Author = frappe.qb.DocType("Author")
+        EBookOrder = frappe.qb.DocType("eBook Order")
 
-# The 3 DocTypes to join
-EBook = frappe.qb.DocType("eBook")
-Author = frappe.qb.DocType("Author")
-EBookOrder = frappe.qb.DocType("eBook Order")
+        query = (
+            frappe.qb.from_(EBook)
+            .left_join(Author)
+            .on(Author.name == EBook.author)
+            .left_join(EBookOrder)
+            .on((EBookOrder.ebook == EBook.ebook_name) & (EBookOrder.status == "Paid"))
+            .where(EBook.is_published == True)  # Only Published Ebooks
+            .groupby(EBook.ebook_name)
+            .select(
+                EBook.route,
+                EBook.cover_image,
+                EBook.ebook_name,
+                Author.full_name.as_("author_name"),
+                Count(EBookOrder.customer_email).as_("sales_count"),
+            )
+            .orderby(EBook.creation)  # Newest books first
+        )
 
-query = (
-	frappe.qb.from_(EBook)
-	.left_join(Author)
-	.on(Author.name == EBook.author)
-	.left_join(EBookOrder)
-	.on((EBookOrder.ebook == EBook.ebook_name) & (EBookOrder.status == "Paid"))
-	.where(EBook.is_published == True)  # Only Published Ebooks
-	.groupby(EBook.ebook_name)
-	.select(
-		EBook.route,
-		EBook.cover_image,
-		EBook.ebook_name,
-		Author.full_name.as_("author_name"),
-		Count(EBookOrder.customer_email).as_("sales_count"),
-	)
-	.orderby(EBook.creation)  # Newest books first
-)
+        # execute the database query
+        ebooks = query.run(as_dict=True)
+        return ebooks
 
-# execute the database query
-ebooks = query.run(as_dict=True)
