@@ -105,7 +105,7 @@ from . api import MpesaAccessToken #imports the file
 
 
 @frappe.whitelist()
-def lipa_na_mpesa_online():
+def lipa_na_mpesa_online(price, phone_number):
     access_token = MpesaAccessToken.validated_mpesa_access_token
     print(access_token)
     api_url = "https://sandbox.safaricom.co.ke/mpesa/stkpush/v1/processrequest"
@@ -122,7 +122,7 @@ def lipa_na_mpesa_online():
         "Password": decode_password,
         "Timestamp": lipa_time,
         "TransactionType": "CustomerPayBillOnline",
-        "Amount": 1,
+        "Amount": float(price),
         "PartyA": 254759669534,  # replace with your phone number to get stk push
         "PartyB": Business_short_code,
         "PhoneNumber": 254759669534,  # replace with your phone number to get stk push
@@ -133,6 +133,7 @@ def lipa_na_mpesa_online():
 
     response = requests.post(api_url, json=request, headers=headers)
     print("hello")
+    print(price, phone_number)
     print(response)
 
     # Create the Frappe response
@@ -142,4 +143,4 @@ def lipa_na_mpesa_online():
     return frappe.response
 
 
-lipa_na_mpesa_online()
+# lipa_na_mpesa_online()

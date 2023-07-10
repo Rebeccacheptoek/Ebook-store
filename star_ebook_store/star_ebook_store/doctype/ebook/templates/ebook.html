@@ -30,8 +30,7 @@
                 </div>
 
                 <div>
-                    <a class="button is-medium is-outlined is-link mt-5" id="buy-button">Buy</a>
-                    {#                <a class="button is-medium is-outlined is-link mt-5" id="buy-mpesa">Mpesa</a>#}
+                    <a class="button is-medium is-outlined is-link mt-5" id="buy-button">Pay with Card</a>
                     <button class="button is-medium is-outlined is-link mt-5" id="mpesa-button" onclick="lipaNaMpesa()">
                         Pay with M-Pesa
                     </button>
@@ -158,8 +157,12 @@
               }
 
               const response = await fetch("/api/method/star_ebook_store.api.lipa_na_mpesa_online", {
-                  method: 'GET',
-                  headers: headers
+                method: 'POST',
+                body: JSON.stringify({
+                    price: '{{ doc.price }}',
+                    phone_number: '254759669534',
+                }),
+                headers
               });
               if (response.ok) {
                   console.log("Payment request successful");
