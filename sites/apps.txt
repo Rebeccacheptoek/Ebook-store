@@ -1,0 +1,2 @@
+frappe
+star_ebook_store

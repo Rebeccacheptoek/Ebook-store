@@ -1,0 +1,26 @@
++-------------------+---------------+------+-----+-------------+-------+
+| Field             | Type          | Null | Key | Default     | Extra |
++-------------------+---------------+------+-----+-------------+-------+
+| name              | varchar(140)  | NO   | PRI | NULL        |       |
+| creation          | datetime(6)   | YES  |     | NULL        |       |
+| modified          | datetime(6)   | YES  | MUL | NULL        |       |
+| modified_by       | varchar(140)  | YES  |     | NULL        |       |
+| owner             | varchar(140)  | YES  |     | NULL        |       |
+| docstatus         | int(1)        | NO   |     | 0           |       |
+| idx               | int(8)        | NO   |     | 0           |       |
+| title             | varchar(140)  | YES  |     | NULL        |       |
+| _user_tags        | text          | YES  |     | NULL        |       |
+| _comments         | text          | YES  |     | NULL        |       |
+| _assign           | text          | YES  |     | NULL        |       |
+| _liked_by         | text          | YES  |     | NULL        |       |
+| ebook_name        | varchar(140)  | YES  |     | NULL        |       |
+| cover_image       | text          | YES  |     | NULL        |       |
+| description       | longtext      | YES  |     | NULL        |       |
+| asset_file        | text          | YES  |     | NULL        |       |
+| format            | varchar(140)  | YES  |     | PDF         |       |
+| price             | decimal(21,9) | NO   |     | 0.000000000 |       |
+| author            | varchar(140)  | YES  |     | NULL        |       |
+| table_of_contents | longtext      | YES  |     | NULL        |       |
+| route             | varchar(140)  | YES  |     | NULL        |       |
+| is_published      | int(1)        | NO   |     | 0           |       |
++-------------------+---------------+------+-----+-------------+-------+

@@ -1,0 +1,30 @@
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9392c1da1b1a9b20 -p********** _9392c1da1b1a9b20 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./abc.localhost/private/backups/20230707_180002-abc_localhost-database.sql.gz
+
+Backup Summary for abc.localhost at 2023-07-07 18:00:03.986085
+Config  : ./abc.localhost/private/backups/20230707_180002-abc_localhost-site_config_backup.json 94.0B
+Database: ./abc.localhost/private/backups/20230707_180002-abc_localhost-database.sql.gz         264.6KiB
+Backup for Site abc.localhost has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9392c1da1b1a9b20 -p********** _9392c1da1b1a9b20 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./abc.localhost/private/backups/20230708_000003-abc_localhost-database.sql.gz
+
+Backup Summary for abc.localhost at 2023-07-08 00:00:05.045327
+Config  : ./abc.localhost/private/backups/20230708_000003-abc_localhost-site_config_backup.json 94.0B
+Database: ./abc.localhost/private/backups/20230708_000003-abc_localhost-database.sql.gz         283.0KiB
+Backup for Site abc.localhost has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9392c1da1b1a9b20 -p********** _9392c1da1b1a9b20 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./abc.localhost/private/backups/20230708_180002-abc_localhost-database.sql.gz
+
+Backup Summary for abc.localhost at 2023-07-08 18:00:06.358130
+Config  : ./abc.localhost/private/backups/20230708_180002-abc_localhost-site_config_backup.json 415.0B
+Database: ./abc.localhost/private/backups/20230708_180002-abc_localhost-database.sql.gz         9.0MiB
+Backup for Site abc.localhost has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9392c1da1b1a9b20 -p********** _9392c1da1b1a9b20 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./abc.localhost/private/backups/20230709_000005-abc_localhost-database.sql.gz
+
+Backup Summary for abc.localhost at 2023-07-09 00:00:09.571444
+Config  : ./abc.localhost/private/backups/20230709_000005-abc_localhost-site_config_backup.json 415.0B
+Database: ./abc.localhost/private/backups/20230709_000005-abc_localhost-database.sql.gz         9.1MiB
+Backup for Site abc.localhost has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9392c1da1b1a9b20 -p********** _9392c1da1b1a9b20 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./abc.localhost/private/backups/20230709_180005-abc_localhost-database.sql.gz
+
+Backup Summary for abc.localhost at 2023-07-09 18:00:08.783916
+Config  : ./abc.localhost/private/backups/20230709_180005-abc_localhost-site_config_backup.json 415.0B
+Database: ./abc.localhost/private/backups/20230709_180005-abc_localhost-database.sql.gz         9.2MiB
+Backup for Site abc.localhost has been successfully completed

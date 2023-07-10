@@ -1,0 +1,33 @@
+2023-07-08 14:52:10,431 ERROR frappe New Exception collected in error log
+Site: abc.localhost
+Form Dict: {'ebook_name': 'Forgive Yourself', 'cmd': 'star_ebook_store.api.create_ebook_order'}
+2023-07-08 14:52:14,305 ERROR frappe New Exception collected in error log
+Site: abc.localhost
+Form Dict: {'ebook_name': 'Forgive Yourself', 'cmd': 'star_ebook_store.api.create_ebook_order'}
+2023-07-08 14:53:27,903 ERROR frappe New Exception collected in error log
+Site: abc.localhost
+Form Dict: {'ebook_name': 'Forgive Yourself', 'cmd': 'star_ebook_store.api.create_ebook_order'}
+2023-07-08 14:53:30,235 ERROR frappe New Exception collected in error log
+Site: abc.localhost
+Form Dict: {'ebook_name': 'Forgive Yourself', 'cmd': 'star_ebook_store.api.create_ebook_order'}
+2023-07-08 14:54:08,981 ERROR frappe New Exception collected in error log
+Site: abc.localhost
+Form Dict: {'ebook_name': 'Forgive Yourself', 'cmd': 'star_ebook_store.api.create_ebook_order'}
+2023-07-08 14:54:11,274 ERROR frappe New Exception collected in error log
+Site: abc.localhost
+Form Dict: {'ebook_name': 'Forgive Yourself', 'cmd': 'star_ebook_store.api.create_ebook_order'}
+2023-07-08 14:57:31,775 ERROR frappe New Exception collected in error log
+Site: abc.localhost
+Form Dict: {'ebook_name': 'Forgive Yourself', 'cmd': 'star_ebook_store.api.create_ebook_order'}
+2023-07-08 21:48:53,833 ERROR frappe New Exception collected in error log
+Site: abc.localhost
+Form Dict: {'ebook_name': 'Forgive Yourself', 'cmd': 'star_ebook_store.api.create_ebook_order'}
+2023-07-08 21:50:43,153 ERROR frappe New Exception collected in error log
+Site: abc.localhost
+Form Dict: {'ebook_name': 'Forgive Yourself', 'cmd': 'star_ebook_store.api.create_ebook_order'}
+2023-07-08 21:52:16,422 ERROR frappe New Exception collected in error log
+Site: abc.localhost
+Form Dict: {'ebook_name': 'Forgive Yourself', 'cmd': 'star_ebook_store.api.create_ebook_order'}
+2023-07-08 21:52:34,127 ERROR frappe New Exception collected in error log
+Site: abc.localhost
+Form Dict: {'ebook_name': 'Forgive Yourself', 'cmd': 'star_ebook_store.api.create_ebook_order'}

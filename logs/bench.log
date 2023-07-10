@@ -1,0 +1,70 @@
+2023-07-07 16:19:40,169 DEBUG cd new-frappe && python3 -m venv env
+2023-07-07 16:19:47,499 DEBUG cd new-frappe && /home/becky/Desktop/new-frappe/env/bin/python -m pip install --quiet --upgrade pip
+2023-07-07 16:19:56,658 DEBUG cd new-frappe && /home/becky/Desktop/new-frappe/env/bin/python -m pip install --quiet wheel
+2023-07-07 16:20:03,055 LOG Getting frappe
+2023-07-07 16:20:03,056 DEBUG cd new-frappe/apps && git clone https://github.com/frappe/frappe.git  --depth 1 --origin upstream
+2023-07-07 16:20:23,613 LOG Installing frappe
+2023-07-07 16:20:23,613 DEBUG cd /home/becky/Desktop/new-frappe && /home/becky/Desktop/new-frappe/env/bin/python -m pip install --quiet --upgrade -e /home/becky/Desktop/new-frappe/apps/frappe 
+2023-07-07 16:27:11,260 DEBUG cd /home/becky/Desktop/new-frappe/apps/frappe && yarn install
+2023-07-07 16:28:18,427 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-07-07 16:28:18,427 DEBUG cd new-frappe && bench build
+2023-07-07 16:28:19,032 INFO /home/becky/.local/bin/bench build
+2023-07-07 16:29:41,980 LOG setting up backups
+2023-07-07 16:29:51,602 LOG backups were set up
+2023-07-07 16:29:51,602 INFO Bench new-frappe initialized
+2023-07-07 16:30:49,742 INFO /home/becky/.local/bin/bench start
+2023-07-07 16:31:50,269 INFO /home/becky/.local/bin/bench start
+2023-07-07 16:31:51,151 INFO /home/becky/.local/bin/bench serve --port 8000
+2023-07-07 16:31:51,204 INFO /home/becky/.local/bin/bench worker
+2023-07-07 16:31:51,225 INFO /home/becky/.local/bin/bench schedule
+2023-07-07 16:31:51,270 INFO /home/becky/.local/bin/bench watch
+2023-07-07 16:32:28,276 INFO /home/becky/.local/bin/bench new-app star_ebook_store
+2023-07-07 16:32:28,284 LOG creating new app star_ebook_store
+2023-07-07 16:33:10,705 LOG Installing star_ebook_store
+2023-07-07 16:33:10,707 DEBUG cd /home/becky/Desktop/new-frappe && /home/becky/Desktop/new-frappe/env/bin/python -m pip install --quiet --upgrade -e /home/becky/Desktop/new-frappe/apps/star_ebook_store 
+2023-07-07 16:33:18,657 DEBUG bench build --app star_ebook_store
+2023-07-07 16:33:19,158 INFO /home/becky/.local/bin/bench build --app star_ebook_store
+2023-07-07 16:33:25,453 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-07-07 16:33:40,444 INFO /home/becky/.local/bin/bench new-site abc.localhost
+2023-07-07 16:40:15,193 INFO /home/becky/.local/bin/bench start
+2023-07-07 16:40:18,779 INFO /home/becky/.local/bin/bench worker
+2023-07-07 16:40:18,816 INFO /home/becky/.local/bin/bench serve --port 8000
+2023-07-07 16:40:18,838 INFO /home/becky/.local/bin/bench watch
+2023-07-07 16:40:18,946 INFO /home/becky/.local/bin/bench schedule
+2023-07-07 16:46:20,010 INFO /home/becky/.local/bin/bench --site abc.localhost install-app star_ebook_store
+2023-07-07 16:49:44,320 INFO /home/becky/.local/bin/bench set-config -g developer_mode true
+2023-07-07 16:49:50,464 INFO /home/becky/.local/bin/bench start
+2023-07-07 16:49:51,140 INFO /home/becky/.local/bin/bench watch
+2023-07-07 16:49:51,180 INFO /home/becky/.local/bin/bench serve --port 8000
+2023-07-07 16:49:51,231 INFO /home/becky/.local/bin/bench schedule
+2023-07-07 16:49:51,234 INFO /home/becky/.local/bin/bench worker
+2023-07-07 18:00:01,301 INFO /home/becky/.local/bin/bench --verbose --site all backup
+2023-07-07 20:26:40,365 INFO /home/becky/.local/bin/bench --site abc.localhost mariadb
+2023-07-07 20:29:12,706 INFO /home/becky/.local/bin/bench --site abc.localhost mariadb
+2023-07-07 20:30:33,558 INFO /home/becky/.local/bin/bench --site abc.localhost mariadb
+2023-07-08 00:00:02,627 INFO /home/becky/.local/bin/bench --verbose --site all backup
+2023-07-08 00:22:45,694 INFO /home/becky/.local/bin/bench --site abc.localhost console
+2023-07-08 00:23:14,443 INFO /home/becky/.local/bin/bench --site abc.localhost console
+2023-07-08 00:27:23,238 INFO /home/becky/.local/bin/bench --site abc.localhost --force console --user root
+2023-07-08 00:28:14,274 INFO /home/becky/.local/bin/bench --site abc.localhost --force --no-bench-config console
+2023-07-08 00:28:30,440 INFO /home/becky/.local/bin/bench --help
+2023-07-08 00:30:00,856 INFO /home/becky/.local/bin/bench --site abc.localhost console
+2023-07-08 00:33:21,055 INFO /home/becky/.local/bin/bench --site abc.localhost console
+2023-07-08 14:06:10,918 INFO /home/becky/.local/bin/bench pip install razorpay
+2023-07-08 14:09:09,534 INFO /home/becky/.local/bin/bench --site abc.localhost console
+2023-07-08 15:23:22,555 INFO /home/becky/.local/bin/bench --site abc.localhost ngrok
+2023-07-08 15:26:18,407 INFO /home/becky/.local/bin/bench pip install pyngrok
+2023-07-08 15:26:33,992 INFO /home/becky/.local/bin/bench --site abc.localhost ngrok
+2023-07-08 15:35:10,489 INFO /home/becky/.local/bin/bench --site abc.localhost ngrok
+2023-07-08 15:35:41,282 INFO /home/becky/.local/bin/bench --site abc.localhost ngrok
+2023-07-08 15:41:39,045 INFO /home/becky/.local/bin/bench --site abc.localhost ngrok
+2023-07-08 15:42:27,391 INFO /home/becky/.local/bin/bench --site abc.localhost ngrok
+2023-07-08 16:33:10,109 INFO /home/becky/.local/bin/bench --site abc.localhost ngrok
+2023-07-08 16:56:52,772 INFO /home/becky/.local/bin/bench --site abc.localhost ngrok
+2023-07-08 17:08:12,049 INFO /home/becky/.local/bin/bench --site abc.localhost ngrok
+2023-07-08 18:00:01,529 INFO /home/becky/.local/bin/bench --verbose --site all backup
+2023-07-09 00:00:02,611 INFO /home/becky/.local/bin/bench --verbose --site all backup
+2023-07-09 18:00:01,766 INFO /home/becky/.local/bin/bench --verbose --site all backup
+2023-07-09 20:55:00,802 INFO /home/becky/.local/bin/bench --site booker.localhost migrate
+2023-07-09 20:55:37,114 INFO /home/becky/.local/bin/bench --site abc.localhost migrate
+2023-07-09 22:25:32,687 INFO /home/becky/.local/bin/bench --site abc.localhost mariadb
