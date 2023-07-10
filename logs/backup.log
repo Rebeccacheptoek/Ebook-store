@@ -28,3 +28,9 @@ Backup Summary for abc.localhost at 2023-07-09 18:00:08.783916
 Config  : ./abc.localhost/private/backups/20230709_180005-abc_localhost-site_config_backup.json 415.0B
 Database: ./abc.localhost/private/backups/20230709_180005-abc_localhost-database.sql.gz         9.2MiB
 Backup for Site abc.localhost has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9392c1da1b1a9b20 -p********** _9392c1da1b1a9b20 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./abc.localhost/private/backups/20230710_180011-abc_localhost-database.sql.gz
+
+Backup Summary for abc.localhost at 2023-07-10 18:00:15.436517
+Config  : ./abc.localhost/private/backups/20230710_180011-abc_localhost-site_config_backup.json 415.0B
+Database: ./abc.localhost/private/backups/20230710_180011-abc_localhost-database.sql.gz         9.4MiB
+Backup for Site abc.localhost has been successfully completed

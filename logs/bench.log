@@ -68,3 +68,4 @@
 2023-07-09 20:55:00,802 INFO /home/becky/.local/bin/bench --site booker.localhost migrate
 2023-07-09 20:55:37,114 INFO /home/becky/.local/bin/bench --site abc.localhost migrate
 2023-07-09 22:25:32,687 INFO /home/becky/.local/bin/bench --site abc.localhost mariadb
+2023-07-10 18:00:03,712 INFO /home/becky/.local/bin/bench --verbose --site all backup
