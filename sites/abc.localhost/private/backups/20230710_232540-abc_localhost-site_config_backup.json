@@ -1,0 +1,13 @@
+{
+ "auto_email_id": "rebeccacheptoek1@gmail.com",
+ "db_name": "_9392c1da1b1a9b20",
+ "db_password": "3MaUYUI2I4mFTeyb",
+ "db_type": "mariadb",
+ "encryption_key": "nDOq02DIeQktwgXPwiAtx3YI10M-IOSb8DAfoD-iJLc=",
+ "mail_login": "640f1a7df8a7d2",
+ "mail_password": "f0b8ae21e3261d",
+ "mail_port": "2525",
+ "mail_server": "sandbox.smtp.mailtrap.io",
+ "maintenance_mode": 0,
+ "ngrok_authtoken": "2SL18TntJ4t8amINn7UKkJvwIwd_6E1AHmMgSz5PtD18fPXaJ"
+}

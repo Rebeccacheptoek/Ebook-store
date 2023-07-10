@@ -31,3 +31,90 @@ Form Dict: {'ebook_name': 'Forgive Yourself', 'cmd': 'star_ebook_store.api.creat
 2023-07-08 21:52:34,127 ERROR frappe New Exception collected in error log
 Site: abc.localhost
 Form Dict: {'ebook_name': 'Forgive Yourself', 'cmd': 'star_ebook_store.api.create_ebook_order'}
+2023-07-10 22:50:01,384 ERROR frappe New Exception collected in error log
+Site: abc.localhost
+Form Dict: {}
+2023-07-10 22:50:01,415 ERROR frappe New Exception collected in error log
+Site: abc.localhost
+Form Dict: {}
+2023-07-10 22:50:01,423 ERROR frappe New Exception collected in error log
+Site: abc.localhost
+Form Dict: {}
+2023-07-10 22:50:01,425 ERROR frappe New Exception collected in error log
+Site: abc.localhost
+Form Dict: {}
+2023-07-10 22:50:01,425 ERROR frappe New Exception collected in error log
+Site: abc.localhost
+Form Dict: {}
+2023-07-10 22:50:04,974 ERROR frappe New Exception collected in error log
+Site: abc.localhost
+Form Dict: {}
+2023-07-10 22:50:04,976 ERROR frappe New Exception collected in error log
+Site: abc.localhost
+Form Dict: {}
+2023-07-10 22:50:38,602 ERROR frappe New Exception collected in error log
+Site: abc.localhost
+Form Dict: {}
+2023-07-10 22:50:40,567 ERROR frappe New Exception collected in error log
+Site: abc.localhost
+Form Dict: {}
+2023-07-10 22:50:40,592 ERROR frappe New Exception collected in error log
+Site: abc.localhost
+Form Dict: {}
+2023-07-10 22:51:01,812 ERROR frappe New Exception collected in error log
+Site: abc.localhost
+Form Dict: {}
+2023-07-10 22:51:02,564 ERROR frappe New Exception collected in error log
+Site: abc.localhost
+Form Dict: {}
+2023-07-10 22:51:02,580 ERROR frappe New Exception collected in error log
+Site: abc.localhost
+Form Dict: {}
+2023-07-10 22:51:37,961 ERROR frappe New Exception collected in error log
+Site: abc.localhost
+Form Dict: {}
+2023-07-10 22:51:41,171 ERROR frappe New Exception collected in error log
+Site: abc.localhost
+Form Dict: {}
+2023-07-10 22:51:43,516 ERROR frappe New Exception collected in error log
+Site: abc.localhost
+Form Dict: {}
+2023-07-10 22:51:44,042 ERROR frappe New Exception collected in error log
+Site: abc.localhost
+Form Dict: {}
+2023-07-10 23:10:29,878 ERROR frappe New Exception collected in error log
+Site: abc.localhost
+Form Dict: {}
+2023-07-10 23:10:32,579 ERROR frappe New Exception collected in error log
+Site: abc.localhost
+Form Dict: {}
+2023-07-10 23:13:16,664 ERROR frappe New Exception collected in error log
+Site: abc.localhost
+Form Dict: {}
+2023-07-10 23:13:17,067 ERROR frappe New Exception collected in error log
+Site: abc.localhost
+Form Dict: {}
+2023-07-10 23:13:42,542 ERROR frappe New Exception collected in error log
+Site: abc.localhost
+Form Dict: {}
+2023-07-10 23:13:42,881 ERROR frappe New Exception collected in error log
+Site: abc.localhost
+Form Dict: {}
+2023-07-10 23:16:10,689 ERROR frappe New Exception collected in error log
+Site: abc.localhost
+Form Dict: {}
+2023-07-10 23:16:12,675 ERROR frappe New Exception collected in error log
+Site: abc.localhost
+Form Dict: {}
+2023-07-10 23:31:53,772 ERROR frappe New Exception collected in error log
+Site: abc.localhost
+Form Dict: {'cmd': 'star_ebook_store.api.lipa_na_mpesa_online'}
+2023-07-10 23:48:50,243 ERROR frappe New Exception collected in error log
+Site: abc.localhost
+Form Dict: {'cmd': 'star_ebook_store.api.lipa_na_mpesa_online'}
+2023-07-10 23:49:06,796 ERROR frappe New Exception collected in error log
+Site: abc.localhost
+Form Dict: {'cmd': 'star_ebook_store.api.lipa_na_mpesa_online'}
+2023-07-11 00:10:47,975 ERROR frappe New Exception collected in error log
+Site: abc.localhost
+Form Dict: {'price': '45.0', 'phone_number': '254759669534', 'cmd': 'star_ebook_store.api.lipa_na_mpesa_online'}

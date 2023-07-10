@@ -10411,3 +10411,30 @@ av5yOGPLvAJClIEKargLcMpwpSlD
 2023-07-10 10:00:34,737 home-becky-Desktop-new-frappe:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.oauth.delete_oauth2_data'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='abc.localhost', user='Administrator') (abc.localhost::scheduled_job::frappe.oauth.delete_oauth2_data)
 2023-07-10 10:00:35,340 home-becky-Desktop-new-frappe:default: Job OK (abc.localhost::scheduled_job::frappe.oauth.delete_oauth2_data)
 2023-07-10 10:00:35,341 Result is kept for 600 seconds
+2023-07-10 23:09:45,745 Worker rq:worker:b4828e45053641818e08a46e834a4db1 started with PID 197159, version 1.15.1
+2023-07-10 23:09:45,958 Subscribing to channel rq:pubsub:b4828e45053641818e08a46e834a4db1
+2023-07-10 23:09:45,959 *** Listening on home-becky-Desktop-new-frappe:short, home-becky-Desktop-new-frappe:default, home-becky-Desktop-new-frappe:long...
+2023-07-10 23:09:45,960 Cleaning registries for queue: home-becky-Desktop-new-frappe:short
+2023-07-10 23:09:45,962 Cleaning registries for queue: home-becky-Desktop-new-frappe:default
+2023-07-10 23:09:45,963 Cleaning registries for queue: home-becky-Desktop-new-frappe:long
+2023-07-10 23:17:43,385 Worker b4828e45053641818e08a46e834a4db1 [PID 197159]: warm shut down requested
+2023-07-10 23:17:43,425 Unsubscribing from channel rq:pubsub:b4828e45053641818e08a46e834a4db1
+2023-07-10 23:17:59,062 Worker rq:worker:cb1032c214694217af1d5542c03180eb started with PID 197971, version 1.15.1
+2023-07-10 23:17:59,063 Subscribing to channel rq:pubsub:cb1032c214694217af1d5542c03180eb
+2023-07-10 23:17:59,064 *** Listening on home-becky-Desktop-new-frappe:short, home-becky-Desktop-new-frappe:default, home-becky-Desktop-new-frappe:long...
+2023-07-10 23:17:59,065 Cleaning registries for queue: home-becky-Desktop-new-frappe:short
+2023-07-10 23:17:59,070 Cleaning registries for queue: home-becky-Desktop-new-frappe:default
+2023-07-10 23:17:59,072 Cleaning registries for queue: home-becky-Desktop-new-frappe:long
+2023-07-10 23:18:11,799 Worker cb1032c214694217af1d5542c03180eb [PID 197971]: warm shut down requested
+2023-07-10 23:18:50,609 Worker rq:worker:ae99fe441b2b4690ad25ff2f00a9a2a4 started with PID 198193, version 1.15.1
+2023-07-10 23:18:50,609 Subscribing to channel rq:pubsub:ae99fe441b2b4690ad25ff2f00a9a2a4
+2023-07-10 23:18:50,611 *** Listening on home-becky-Desktop-new-frappe:short, home-becky-Desktop-new-frappe:default, home-becky-Desktop-new-frappe:long...
+2023-07-10 23:18:50,612 Cleaning registries for queue: home-becky-Desktop-new-frappe:short
+2023-07-10 23:18:50,639 Cleaning registries for queue: home-becky-Desktop-new-frappe:default
+2023-07-10 23:18:50,641 Cleaning registries for queue: home-becky-Desktop-new-frappe:long
+2023-07-10 23:59:21,196 Cleaning registries for queue: home-becky-Desktop-new-frappe:short
+2023-07-10 23:59:21,200 Cleaning registries for queue: home-becky-Desktop-new-frappe:default
+2023-07-10 23:59:21,203 Cleaning registries for queue: home-becky-Desktop-new-frappe:long
+2023-07-11 00:39:51,364 Cleaning registries for queue: home-becky-Desktop-new-frappe:short
+2023-07-11 00:39:51,368 Cleaning registries for queue: home-becky-Desktop-new-frappe:default
+2023-07-11 00:39:51,373 Cleaning registries for queue: home-becky-Desktop-new-frappe:long

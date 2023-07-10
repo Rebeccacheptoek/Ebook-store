@@ -78,3 +78,55 @@ Consider the consequences of `git reset --hard` on your apps before you run that
 To avoid seeing this warning, set shallow_clone to false in your common_site_config.json
 		
 2023-07-10 22:38:16,812 WARNING /home/becky/.local/bin/bench update executed with exit code 1
+2023-07-10 22:40:00,526 INFO /home/becky/.local/bin/bench update
+2023-07-10 22:40:03,848 WARNING shallow_clone is set in your bench config.
+However without passing the --reset flag, your repositories will be unshallowed.
+To avoid this, cancel this operation and run `bench update --reset`.
+
+Consider the consequences of `git reset --hard` on your apps before you run that.
+To avoid seeing this warning, set shallow_clone to false in your common_site_config.json
+		
+2023-07-10 22:40:19,462 WARNING /home/becky/.local/bin/bench update executed with exit code 1
+2023-07-10 22:52:47,311 INFO /home/becky/.local/bin/bench start
+2023-07-10 22:53:32,105 INFO /home/becky/.local/bin/bench worker
+2023-07-10 22:53:32,111 INFO /home/becky/.local/bin/bench watch
+2023-07-10 22:53:32,111 INFO /home/becky/.local/bin/bench schedule
+2023-07-10 22:53:32,113 INFO /home/becky/.local/bin/bench serve --port 8000
+2023-07-10 22:55:06,878 INFO /home/becky/.local/bin/bench build
+2023-07-10 22:58:46,880 INFO /home/becky/.local/bin/bench clear-cache
+2023-07-10 23:00:22,299 INFO /home/becky/.local/bin/bench clear-cache
+2023-07-10 23:00:38,754 INFO /home/becky/.local/bin/bench start
+2023-07-10 23:00:55,323 INFO /home/becky/.local/bin/bench watch
+2023-07-10 23:00:55,392 INFO /home/becky/.local/bin/bench schedule
+2023-07-10 23:00:55,438 INFO /home/becky/.local/bin/bench serve --port 8000
+2023-07-10 23:00:55,472 INFO /home/becky/.local/bin/bench worker
+2023-07-10 23:02:36,794 INFO /home/becky/.local/bin/bench start
+2023-07-10 23:02:52,201 INFO /home/becky/.local/bin/bench start
+2023-07-10 23:05:22,596 INFO /home/becky/.local/bin/bench start
+2023-07-10 23:09:35,036 INFO /home/becky/.local/bin/bench start
+2023-07-10 23:09:35,757 INFO /home/becky/.local/bin/bench worker
+2023-07-10 23:09:35,794 INFO /home/becky/.local/bin/bench watch
+2023-07-10 23:09:35,874 INFO /home/becky/.local/bin/bench schedule
+2023-07-10 23:09:35,880 INFO /home/becky/.local/bin/bench serve --port 8000
+2023-07-10 23:17:12,508 INFO /home/becky/.local/bin/bench --site abc.localhost set-maintenance-mode off
+2023-07-10 23:17:35,708 INFO /home/becky/.local/bin/bench start
+2023-07-10 23:17:49,300 INFO /home/becky/.local/bin/bench start
+2023-07-10 23:17:51,381 INFO /home/becky/.local/bin/bench worker
+2023-07-10 23:17:51,465 INFO /home/becky/.local/bin/bench serve --port 8000
+2023-07-10 23:17:51,476 INFO /home/becky/.local/bin/bench watch
+2023-07-10 23:17:51,487 INFO /home/becky/.local/bin/bench schedule
+2023-07-10 23:18:39,691 INFO /home/becky/.local/bin/bench start
+2023-07-10 23:18:41,668 INFO /home/becky/.local/bin/bench watch
+2023-07-10 23:18:41,805 INFO /home/becky/.local/bin/bench worker
+2023-07-10 23:18:41,868 INFO /home/becky/.local/bin/bench schedule
+2023-07-10 23:18:42,377 INFO /home/becky/.local/bin/bench serve --port 8000
+2023-07-10 23:25:12,328 INFO /home/becky/.local/bin/bench update
+2023-07-10 23:25:24,451 WARNING shallow_clone is set in your bench config.
+However without passing the --reset flag, your repositories will be unshallowed.
+To avoid this, cancel this operation and run `bench update --reset`.
+
+Consider the consequences of `git reset --hard` on your apps before you run that.
+To avoid seeing this warning, set shallow_clone to false in your common_site_config.json
+		
+2023-07-10 23:26:08,495 WARNING /home/becky/.local/bin/bench update executed with exit code 1
+2023-07-11 00:00:02,926 INFO /home/becky/.local/bin/bench --verbose --site all backup
