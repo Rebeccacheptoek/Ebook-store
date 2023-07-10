@@ -1,0 +1,21 @@
+{
+    "frappe": {
+        "resolution": {
+            "commit_hash": null,
+            "branch": null
+        },
+        "required": [],
+        "idx": 1,
+        "version": "15.0.0-dev"
+    },
+    "star_ebook_store": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "9866489a238c60088541338da669daa3d2db07cb",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 2,
+        "version": "0.0.1"
+    }
+}
