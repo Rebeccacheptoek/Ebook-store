@@ -17,7 +17,7 @@ The eBook Store is a web application that allows users to browse, purchase, and 
 ![eBook Details Page](screenshots/ebook.png)
 
 - M-Pesa Payment Prompt: Conveniently make payments using the M-Pesa payment gateway.
-![M-Pesa Payment Prompt](screenshots/mpesa-prompt.png)
+![M-Pesa Payment Prompt](screenshots/mpesa-prompt.jpeg)
 
 - Razorpay Payment Integration: Seamlessly process payments via Razorpay gateway.
 ![Razorpay Payment Integration](screenshots/razorpay-payment.png)

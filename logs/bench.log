@@ -130,3 +130,4 @@ To avoid seeing this warning, set shallow_clone to false in your common_site_con
 		
 2023-07-10 23:26:08,495 WARNING /home/becky/.local/bin/bench update executed with exit code 1
 2023-07-11 00:00:02,926 INFO /home/becky/.local/bin/bench --verbose --site all backup
+2023-07-11 08:20:32,912 INFO /home/becky/.local/bin/bench --site abc.localhost console
