@@ -1,9 +1,8 @@
 ## Star Ebook Store
 
-Star Ebook Store
+- Star Ebook Store
 
-## Project Description
-The eBook Store is a web application that allows users to browse, purchase, and download eBooks. It provides a user-friendly interface for managing eBook collections, and integrating payment gateways.
+- The eBook Store is a web application that allows users to browse, purchase, and download eBooks. It provides a user-friendly interface for managing eBook collections, and integrating payment gateways.
 
 ## Screenshots
 
@@ -24,6 +23,10 @@ The eBook Store is a web application that allows users to browse, purchase, and 
 
 - Mail Sent: Confirmation that the eBook has been sent to your email address after a successful payment.
 ![Mail Sent](screenshots/mail-sent.png)
+
+## Deployment
+Deployment of the eBook Store is currently in progress. More details on the deployment process and hosting instructions will be added soon.
+
 - 
 #### License
 
