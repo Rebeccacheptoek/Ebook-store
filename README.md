@@ -6,11 +6,11 @@
 
 ## Screenshots
 
-- eBook Collection Page: View and explore a wide range of eBooks available.
-![eBook Collection Page](screenshots/ebook-collection.png)
-
 - Store Page: A simple stBrowse and search for eBooks based on authors, or titles.
 ![Store Page](screenshots/store-page.png)
+
+- eBook Collection Page: View and explore a wide range of eBooks available.
+![eBook Collection Page](screenshots/ebook-collection.png)
 
 - eBook Details Page: Get detailed information about a selected eBook before purchasing.
 ![eBook Details Page](screenshots/ebook.png)
