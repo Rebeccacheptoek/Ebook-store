@@ -3,7 +3,7 @@
 Star Ebook Store
 
 ## Project Description
-The eBook Store is a web application that allows users to browse, purchase, and download eBooks. It provides a user-friendly interface for managing eBook collections, integrating payment gateways, and delivering digital content to customers.
+The eBook Store is a web application that allows users to browse, purchase, and download eBooks. It provides a user-friendly interface for managing eBook collections, and integrating payment gateways.
 
 ## Screenshots
 
